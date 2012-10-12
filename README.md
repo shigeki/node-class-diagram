@@ -1,4 +1,11 @@
 node-class-diagram
 ==================
 
-Class diagram of Node.js
+Class Diagram of Node.js
+
+This shows the class structure of Node.js at a glance.
+
+Feedbacks are welcome.
+
+[![Class Diagram of Node.js](http://html5.ohtsu.org/node-class-diagram/node-class-diagram.png)](https://github.com/shigeki/node-class-diagram/blob/master/node-class-diagram.png)
+
