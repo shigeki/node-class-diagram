@@ -4,6 +4,7 @@ node-class-diagram
 Class Diagram of Node.js
 
 This shows the class structure of Node.js at a glance.
+This covers most of classes in the node manual but has a few exceptions.
 
 Feedbacks are welcome.
 
