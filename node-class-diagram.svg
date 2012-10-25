@@ -1,0 +1,2191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Microsoft Visio 11.0、SVG Export v1.0 により生成 node-class-diagram.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="23.4624in" height="16.5913in"
+		viewBox="0 0 1689.29 1194.57" xml:space="preserve" color-interpolation-filters="sRGB" class="st17">
+	<title>Node.js Class Diagram</title>
+	<v:documentProperties v:langID="1041" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+			<v:ud v:nameU="msvNoApplyDataGraphicAfterLink" v:val="VT0(1):5"/>
+			<v:ud v:nameU="msvNoSubprocess" v:prompt="" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#cdcdcd;font-family:ＭＳ Ｐゴシック;font-size:3em;font-weight:bold}
+		.st2 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st3 {fill:#000000;font-family:ＭＳ Ｐゴシック;font-size:1.16666em}
+		.st4 {font-size:1em}
+		.st5 {fill:#000000;font-family:ＭＳ Ｐゴシック;font-size:1.16666em;font-weight:bold}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.48}
+		.st7 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {fill:#000000;font-family:ＭＳ Ｐゴシック;font-size:1.08334em}
+		.st9 {font-size:1em;text-decoration:underline}
+		.st10 {stroke:#000000;stroke-dasharray:3.36,2.4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.48}
+		.st11 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st12 {fill:#000000;font-family:ＭＳ Ｐゴシック;font-size:4.00001em;font-weight:bold}
+		.st13 {fill:#000000;font-family:ＭＳ Ｐゴシック;font-size:1.5em}
+		.st14 {fill:#000000;font-family:ＭＳ Ｐゴシック;font-size:1.99999em}
+		.st15 {fill:#000000;font-family:ＭＳ Ｐゴシック;font-size:1.99999em;font-weight:bold}
+		.st16 {fill:none;stroke:#000000;stroke-dasharray:10.5,7.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st17 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="UMLDiagramType" v:val="VT0(0):26"/>
+			<v:ud v:nameU="UMLPageGUID" v:prompt="" v:val="VT14({EF3B6287-5BC8-4D71-97B5-10BA7AF07006}):41"/>
+		</v:userDefs>
+		<title>Node.js</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape10-1" v:mID="10" v:groupContext="shape" transform="translate(762.809,-1194.57)">
+			<title>ウォーターマークのタイトル</title>
+			<desc>静的構造</desc>
+			<v:userDefs>
+				<v:ud v:nameU="msvNoAutoSize" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="81.8377" cy="1168.97" width="163.68" height="51.2036"/>
+			<text x="9.56" y="1179.77" class="st1" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>静的構造</text>		</g>
+		<g id="shape1-3" v:mID="1" v:groupContext="shape" transform="translate(762.809,-1194.57)">
+			<title>ウォーターマークのタイトル.1</title>
+			<desc>静的構造</desc>
+			<v:userDefs>
+				<v:ud v:nameU="msvNoAutoSize" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="81.8377" cy="1168.97" width="163.68" height="51.2036"/>
+			<text x="9.56" y="1179.77" class="st1" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>静的構造</text>		</g>
+		<g id="group2-5" transform="translate(837.758,-947.643)" v:mID="2" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({6EBAE76D-1CEB-4714-8389-6EB086313738})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.8568149003598):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.8568149003598):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス</title>
+			<g id="shape3-6" v:mID="3" v:groupContext="shape" transform="translate(66.265,-87.0029)">
+				<title>シート.3</title>
+			</g>
+			<g id="shape4-7" v:mID="4" v:groupContext="shape" transform="translate(66.265,-87.0029)">
+				<title>シート.4</title>
+			</g>
+			<g id="shape5-8" v:mID="5" v:groupContext="shape" transform="translate(66.265,-87.0029)">
+				<title>シート.5</title>
+			</g>
+			<g id="shape6-9" v:mID="6" v:groupContext="shape" transform="translate(66.265,-87.0029)">
+				<title>シート.6</title>
+			</g>
+			<g id="shape7-10" v:mID="7" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+setMaxListeners() +emit() +addListener() +on() +once() +remo...</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="66.265" cy="1126.37" width="132.54" height="136.402"/>
+				<rect x="0" y="1058.17" width="132.53" height="136.402" class="st2"/>
+				<text x="1" y="1071.77" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+setMaxListeners()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>emit()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>addListener()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>on()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>once()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>removeListener()<v:newlineChar/><tspan x="1" dy="1.2em"
+							class="st4">+</tspan>removeAllListeners()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>listeners()</text>			</g>
+			<g id="shape8-20" v:mID="8" v:groupContext="shape" transform="translate(0,-136.402)">
+				<title>Attributes</title>
+				<rect x="0" y="1175.77" width="132.53" height="18.8" class="st2"/>
+			</g>
+			<g id="shape9-22" v:mID="9" v:groupContext="shape" transform="translate(0,-155.202)">
+				<title>Name</title>
+				<desc>events.EventEmitter</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="66.265" cy="1185.17" width="132.54" height="18.8035"/>
+				<path d="M0 1194.57 L132.53 1194.57 L132.53 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="6.6" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>events.EventEmitter</text>			</g>
+			<g id="shape11-25" v:mID="11" v:groupContext="shape" transform="translate(96.53,-152.255)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group45-27" transform="translate(904.023,-947.643)" v:mID="45" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({7CE691BD-AE97-4E85-83F6-D4427BF6B657})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(0):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.38061515047154):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化</title>
+			<g id="shape46-28" v:mID="46" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape45-29" v:mID="45" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1229.68 L-387.84 1229.68 L-387.84 1263.47" class="st6"/>
+			</g>
+		</g>
+		<g id="group47-32" transform="translate(904.023,-947.643)" v:mID="47" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({7D1F425A-D47C-4D82-A6E5-D56C3236DC9F})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(0):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.25859061084243):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.47</title>
+			<g id="shape48-33" v:mID="48" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape47-34" v:mID="47" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1229.68 L173.09 1229.68 L173.09 1331.79" class="st6"/>
+			</g>
+		</g>
+		<g id="group64-37" transform="translate(904.023,-947.643)" v:mID="64" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({63371661-F238-4197-82E6-ACB5DCB90C48})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(-0.05695838471601):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.48762625482674):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.64</title>
+			<g id="shape65-38" v:mID="65" v:groupContext="shape" transform="translate(-15.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape64-39" v:mID="64" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1229.68 L-587.08 1229.68 L-587.08 1260.99" class="st6"/>
+			</g>
+		</g>
+		<g id="group68-42" transform="translate(904.023,-947.643)" v:mID="68" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({0E94B5ED-5C85-48B7-8169-514021DED3E4})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(0.068571886155516):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.48762625482674):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.68</title>
+			<g id="shape69-43" v:mID="69" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape68-44" v:mID="68" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1229.68 L607.72 1229.68 L607.72 1254.29" class="st6"/>
+			</g>
+		</g>
+		<g id="group215-47" transform="translate(904.023,-947.643)" v:mID="215" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({71F2979D-1C12-43CE-BF2F-5F804B104B76})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(-0.19960939916062):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.48762625482675):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.215</title>
+			<g id="shape216-48" v:mID="216" v:groupContext="shape" transform="translate(-15.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape215-49" v:mID="215" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1229.68 L-758.26 1229.68 L-758.26 1260.99" class="st6"/>
+			</g>
+		</g>
+		<g id="group296-52" transform="translate(904.023,-947.643)" v:mID="296" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({9ECADADA-D37A-4C18-8917-032890416A3A})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(0):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.13383375530366):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.296</title>
+			<g id="shape297-53" v:mID="297" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape296-54" v:mID="296" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1229.68 L-96.04 1229.68 L-96.04 1259.13" class="st6"/>
+			</g>
+		</g>
+		<g id="group12-57" transform="translate(462.159,-771.93)" v:mID="12" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({DE5B0C34-F30D-47B1-A81E-08B51A63F40C})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.5210910234067):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.5210910234067):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.33</title>
+			<g id="shape13-58" v:mID="13" v:groupContext="shape" transform="translate(54.0276,-53.405)">
+				<title>シート.13</title>
+			</g>
+			<g id="shape14-59" v:mID="14" v:groupContext="shape" transform="translate(54.0276,-53.405)">
+				<title>シート.14</title>
+			</g>
+			<g id="shape15-60" v:mID="15" v:groupContext="shape" transform="translate(54.0276,-53.405)">
+				<title>シート.15</title>
+			</g>
+			<g id="shape16-61" v:mID="16" v:groupContext="shape" transform="translate(54.0276,-53.405)">
+				<title>シート.16</title>
+			</g>
+			<g id="shape17-62" v:mID="17" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+listen() +address() +close()</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="54.0276" cy="1168.37" width="108.06" height="52.4032"/>
+				<rect x="0" y="1142.17" width="108.055" height="52.4032" class="st2"/>
+				<text x="1" y="1155.77" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+listen()<v:newlineChar/><tspan x="1"
+							dy="1.2em" class="st4">+</tspan>address()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>close()</text>			</g>
+			<g id="shape18-67" v:mID="18" v:groupContext="shape" transform="translate(0,-52.4032)">
+				<title>Attributes</title>
+				<desc>+connections +maxConnections</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="54.0276" cy="1176.77" width="108.06" height="35.6033"/>
+				<rect x="0" y="1158.97" width="108.055" height="35.6033" class="st2"/>
+				<text x="1" y="1172.57" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+connections<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>maxConnections</text>			</g>
+			<g id="shape19-71" v:mID="19" v:groupContext="shape" transform="translate(0,-88.0065)">
+				<title>Name</title>
+				<desc>net.Server</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="54.0276" cy="1185.17" width="108.06" height="18.8035"/>
+				<path d="M0 1194.57 L108.06 1194.57 L108.06 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="23.46" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>net.Server</text>			</g>
+			<g id="shape20-74" v:mID="20" v:groupContext="shape" transform="translate(72.0552,-93.4587)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group21-76" transform="translate(1028.45,-754.016)" v:mID="21" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({3B015AF9-F946-4B0E-BB13-42CDA678C827})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.2810740861508):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.2810740861508):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.11</title>
+			<g id="shape22-77" v:mID="22" v:groupContext="shape" transform="translate(48.6614,-28.2035)">
+				<title>シート.22</title>
+			</g>
+			<g id="shape23-78" v:mID="23" v:groupContext="shape" transform="translate(48.6614,-28.2035)">
+				<title>シート.23</title>
+			</g>
+			<g id="shape24-79" v:mID="24" v:groupContext="shape" transform="translate(48.6614,-28.2035)">
+				<title>シート.24</title>
+			</g>
+			<g id="shape25-80" v:mID="25" v:groupContext="shape" transform="translate(48.6614,-28.2035)">
+				<title>シート.25</title>
+			</g>
+			<g id="shape26-81" v:mID="26" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+pipe()</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="48.6614" cy="1185.17" width="97.33" height="18.8035"/>
+				<rect x="0" y="1175.77" width="97.3228" height="18.8035" class="st2"/>
+				<text x="1" y="1189.37" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+pipe()</text>			</g>
+			<g id="shape27-84" v:mID="27" v:groupContext="shape" transform="translate(0,-18.8035)">
+				<title>Attributes</title>
+				<rect x="0" y="1175.77" width="97.3228" height="18.8" class="st2"/>
+			</g>
+			<g id="shape28-86" v:mID="28" v:groupContext="shape" transform="translate(0,-37.6035)">
+				<title>Name</title>
+				<desc>stream.Stream</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="48.6614" cy="1185.17" width="97.33" height="18.8035"/>
+				<path d="M0 1194.57 L97.32 1194.57 L97.32 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="5.7" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>stream.Stream</text>			</g>
+			<g id="shape29-89" v:mID="29" v:groupContext="shape" transform="translate(61.3228,-49.356)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group30-91" transform="translate(652.213,-258.521)" v:mID="30" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({3A383874-B8A1-458E-B947-12F04F2834F2})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.4162784013364):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.4162784013364):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.22</title>
+			<g id="shape31-92" v:mID="31" v:groupContext="shape" transform="translate(53.6591,-154.204)">
+				<title>シート.31</title>
+			</g>
+			<g id="shape32-93" v:mID="32" v:groupContext="shape" transform="translate(53.6591,-154.204)">
+				<title>シート.32</title>
+			</g>
+			<g id="shape33-94" v:mID="33" v:groupContext="shape" transform="translate(53.6591,-154.204)">
+				<title>シート.33</title>
+			</g>
+			<g id="shape34-95" v:mID="34" v:groupContext="shape" transform="translate(53.6591,-154.204)">
+				<title>シート.34</title>
+			</g>
+			<g id="shape35-96" v:mID="35" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+listen() +setTimeout() +setNoDelay() +setKeepAlive() +addres...</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="53.6591" cy="1092.77" width="107.32" height="203.602"/>
+				<rect x="0" y="990.97" width="107.318" height="203.602" class="st2"/>
+				<text x="1" y="1004.57" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+listen()<v:newlineChar/><tspan x="1"
+							dy="1.2em" class="st4">+</tspan>setTimeout()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>setNoDelay()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>setKeepAlive()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>address()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>pause()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>resume()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>end()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>destroy()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>setEncoding()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>write()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>connect()</text>			</g>
+			<g id="shape36-110" v:mID="36" v:groupContext="shape" transform="translate(0,-203.602)">
+				<title>Attributes</title>
+				<desc>+bufferSize +bytesRead +bytesWritten +remoteAddress +remotePort</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="53.6591" cy="1151.57" width="107.32" height="86.0029"/>
+				<rect x="0" y="1108.57" width="107.318" height="86.0029" class="st2"/>
+				<text x="1" y="1122.17" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+bufferSize<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>bytesRead<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>bytesWritten<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>remoteAddress<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>remotePort</text>			</g>
+			<g id="shape37-117" v:mID="37" v:groupContext="shape" transform="translate(0,-289.605)">
+				<title>Name</title>
+				<desc>net.Socket</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="53.6591" cy="1185.17" width="107.32" height="18.8035"/>
+				<path d="M0 1194.57 L107.32 1194.57 L107.32 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="22.05" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>net.Socket</text>			</g>
+			<g id="shape38-120" v:mID="38" v:groupContext="shape" transform="translate(71.3182,-269.857)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group49-122" transform="translate(1077.11,-754.016)" v:mID="49" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({D6932270-868F-423E-9915-1F99A08CEF5C})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(0.59851931731016):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(-0.00016641865407507):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.46650308023276):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.49</title>
+			<g id="shape50-123" v:mID="50" v:groupContext="shape" transform="translate(-18.0051,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape49-124" v:mID="49" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1307.96 L-371.24 1307.96 L-371.24 1381.66" class="st6"/>
+			</g>
+		</g>
+		<g id="shape39-127" v:mID="39" v:groupContext="shape" transform="translate(737.008,-1028.98)">
+			<title>シート.39</title>
+			<desc>newListeners</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="48.7179" cy="1180.4" width="97.44" height="28.3465"/>
+			<ellipse cx="48.7179" cy="1180.4" rx="48.7179" ry="14.1732" class="st7"/>
+			<text x="10.08" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>newListeners</text>		</g>
+		<g id="shape41-130" v:mID="41" v:groupContext="shape" transform="translate(380.293,-820.63)">
+			<title>シート.41</title>
+			<desc>connection</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.0232" cy="1180.4" width="80.05" height="28.3465"/>
+			<ellipse cx="40.0232" cy="1180.4" rx="40.0232" ry="14.1732" class="st7"/>
+			<text x="7.98" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>connection</text>		</g>
+		<g id="shape42-133" v:mID="42" v:groupContext="shape" transform="translate(380.293,-790.866)">
+			<title>シート.42</title>
+			<desc>close</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.0232" cy="1180.4" width="80.05" height="28.3465"/>
+			<ellipse cx="40.0232" cy="1180.4" rx="40.0232" ry="14.1732" class="st7"/>
+			<text x="24.77" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>close</text>		</g>
+		<g id="shape43-136" v:mID="43" v:groupContext="shape" transform="translate(380.293,-759.685)">
+			<title>シート.43</title>
+			<desc>error</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.0232" cy="1180.4" width="80.05" height="28.3465"/>
+			<ellipse cx="40.0232" cy="1180.4" rx="40.0232" ry="14.1732" class="st7"/>
+			<text x="25.67" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>error</text>		</g>
+		<g id="shape44-139" v:mID="44" v:groupContext="shape" transform="translate(380.293,-850.394)">
+			<title>シート.44</title>
+			<desc>listening</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.0232" cy="1180.4" width="80.05" height="28.3465"/>
+			<ellipse cx="40.0232" cy="1180.4" rx="40.0232" ry="14.1732" class="st7"/>
+			<text x="16.18" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>listening</text>		</g>
+		<g id="shape52-142" v:mID="52" v:groupContext="shape" transform="translate(587.017,-449.575)">
+			<title>シート.52</title>
+			<desc>data</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="18.58" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>data</text>		</g>
+		<g id="shape53-145" v:mID="53" v:groupContext="shape" transform="translate(587.017,-418.394)">
+			<title>シート.53</title>
+			<desc>drain</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="16.96" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>drain</text>		</g>
+		<g id="shape54-148" v:mID="54" v:groupContext="shape" transform="translate(587.017,-356.032)">
+			<title>シート.54</title>
+			<desc>end</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="20.71" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>end</text>		</g>
+		<g id="shape55-151" v:mID="55" v:groupContext="shape" transform="translate(587.017,-293.67)">
+			<title>シート.55</title>
+			<desc>error</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="16.83" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>error</text>		</g>
+		<g id="shape56-154" v:mID="56" v:groupContext="shape" transform="translate(587.017,-480.757)">
+			<title>シート.56</title>
+			<desc>connect</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="7.67" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>connect</text>		</g>
+		<g id="shape57-157" v:mID="57" v:groupContext="shape" transform="translate(587.017,-387.213)">
+			<title>シート.57</title>
+			<desc>timeout</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="9.09" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>timeout</text>		</g>
+		<g id="shape58-160" v:mID="58" v:groupContext="shape" transform="translate(587.017,-324.851)">
+			<title>シート.58</title>
+			<desc>close</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="15.92" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>close</text>		</g>
+		<g id="shape59-163" v:mID="59" v:groupContext="shape" transform="translate(964.913,-765.354)">
+			<title>シート.59</title>
+			<desc>pipe</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="19.26" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>pipe</text>		</g>
+		<g id="shape60-166" v:mID="60" v:groupContext="shape" transform="translate(762.809,-1194.57)">
+			<title>ウォーターマークのタイトル.60</title>
+			<desc>静的構造</desc>
+			<v:userDefs>
+				<v:ud v:nameU="msvNoAutoSize" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="81.8377" cy="1168.97" width="163.68" height="51.2036"/>
+			<text x="9.56" y="1179.77" class="st1" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>静的構造</text>		</g>
+		<g id="shape61-168" v:mID="61" v:groupContext="shape" transform="translate(762.809,-1194.57)">
+			<title>ウォーターマークのタイトル.2</title>
+			<desc>静的構造</desc>
+			<v:userDefs>
+				<v:ud v:nameU="msvNoAutoSize" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="81.8377" cy="1168.97" width="163.68" height="51.2036"/>
+			<text x="9.56" y="1179.77" class="st1" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>静的構造</text>		</g>
+		<g id="group84-170" transform="translate(868.506,-341.341)" v:mID="84" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({6FE072A6-A47D-4BBD-9244-3A1417CB32A0})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.7990909013364):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.7990909013364):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.24</title>
+			<g id="shape85-171" v:mID="85" v:groupContext="shape" transform="translate(64.7673,-112.203)">
+				<title>シート.85</title>
+			</g>
+			<g id="shape86-172" v:mID="86" v:groupContext="shape" transform="translate(64.7673,-112.203)">
+				<title>シート.86</title>
+			</g>
+			<g id="shape87-173" v:mID="87" v:groupContext="shape" transform="translate(64.7673,-112.203)">
+				<title>シート.87</title>
+			</g>
+			<g id="shape88-174" v:mID="88" v:groupContext="shape" transform="translate(64.7673,-112.203)">
+				<title>シート.88</title>
+			</g>
+			<g id="shape89-175" v:mID="89" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+write() +pause() +resume() +setTimeout() +setNoDelay() +setK...</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="64.7673" cy="1101.17" width="129.54" height="186.802"/>
+				<rect x="0" y="1007.77" width="129.535" height="186.802" class="st2"/>
+				<text x="1" y="1021.37" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+write()<v:newlineChar/><tspan x="1"
+							dy="1.2em" class="st4">+</tspan>pause()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>resume()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>setTimeout()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>setNoDelay()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>setKeepAlive()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>setEncoding()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>getPeerCertificate()<v:newlineChar/><tspan x="1" dy="1.2em"
+							class="st4">+</tspan>getCipher()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>end()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>destroy()</text>			</g>
+			<g id="shape90-188" v:mID="90" v:groupContext="shape" transform="translate(0,-186.802)">
+				<title>Attributes</title>
+				<rect x="0" y="1175.77" width="129.535" height="18.8" class="st2"/>
+			</g>
+			<g id="shape91-190" v:mID="91" v:groupContext="shape" transform="translate(0,-205.602)">
+				<title>Name</title>
+				<desc>tls.CryptStream (*)</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="64.7673" cy="1185.17" width="129.54" height="18.8035"/>
+				<path d="M0 1194.57 L129.53 1194.57 L129.53 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="6.17" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>tls.CryptStream  (*)</text>			</g>
+			<g id="shape92-193" v:mID="92" v:groupContext="shape" transform="translate(93.5345,-196.355)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group66-195" transform="translate(1077.11,-754.016)" v:mID="66" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({9FEF1E47-0CB1-4F4B-9D72-0C9789F0F1B6})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(1.7763568394003E-015):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.27675673810117):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.66</title>
+			<g id="shape67-196" v:mID="67" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape66-197" v:mID="66" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1307.96 L-143.84 1307.96 L-143.84 1382.84" class="st6"/>
+			</g>
+		</g>
+		<g id="group95-200" transform="translate(776.41,-66.0387)" v:mID="95" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({BC54E0BB-CCBB-4AF0-9CD7-9EBBFBC7C15C})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.6775546464536):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.6775546464536):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.35</title>
+			<g id="shape96-201" v:mID="96" v:groupContext="shape" transform="translate(60.392,-58.2058)">
+				<title>シート.96</title>
+			</g>
+			<g id="shape97-202" v:mID="97" v:groupContext="shape" transform="translate(60.392,-58.2058)">
+				<title>シート.97</title>
+			</g>
+			<g id="shape98-203" v:mID="98" v:groupContext="shape" transform="translate(60.392,-58.2058)">
+				<title>シート.98</title>
+			</g>
+			<g id="shape99-204" v:mID="99" v:groupContext="shape" transform="translate(60.392,-58.2058)">
+				<title>シート.99</title>
+			</g>
+			<g id="shape100-205" v:mID="100" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+address()</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="60.392" cy="1185.77" width="120.79" height="17.6037"/>
+				<rect x="0" y="1176.97" width="120.784" height="17.6037" class="st2"/>
+				<text x="1" y="1189.67" class="st8" v:langID="1041"><v:paragraph/><v:tabList/>+address()</text>			</g>
+			<g id="shape101-208" v:mID="101" v:groupContext="shape" transform="translate(0,-17.6037)">
+				<title>Attributes</title>
+				<desc>+remoteAddress +remotePort +authorized +authorizationError +s...</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="60.392" cy="1154.57" width="120.79" height="80.0043"/>
+				<rect x="0" y="1114.57" width="120.784" height="80.0043" class="st2"/>
+				<text x="1" y="1127.27" class="st8" v:langID="1041"><v:paragraph/><v:tabList/>+remoteAddress<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>remotePort<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>authorized<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>authorizationError<v:newlineChar/><tspan x="1" dy="1.2em"
+							class="st4">+</tspan>socket(*)</text>			</g>
+			<g id="shape102-215" v:mID="102" v:groupContext="shape" transform="translate(0,-97.6081)">
+				<title>Name</title>
+				<desc>tls.CleartextStream</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="60.392" cy="1185.17" width="120.79" height="18.8035"/>
+				<path d="M0 1194.57 L120.78 1194.57 L120.78 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="3.16" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>tls.CleartextStream</text>			</g>
+			<g id="shape103-218" v:mID="103" v:groupContext="shape" transform="translate(84.7839,-101.86)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group104-220" transform="translate(949.606,-133.41)" v:mID="104" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({2F4FA1EF-D71A-40A3-8150-ED53A35BF56A})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(2.1477160844418):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(2.1477160844418):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.44</title>
+			<g id="shape105-221" v:mID="105" v:groupContext="shape" transform="translate(77.3178,-28.2017)">
+				<title>シート.105</title>
+			</g>
+			<g id="shape106-222" v:mID="106" v:groupContext="shape" transform="translate(77.3178,-28.2017)">
+				<title>シート.106</title>
+			</g>
+			<g id="shape107-223" v:mID="107" v:groupContext="shape" transform="translate(77.3178,-28.2017)">
+				<title>シート.107</title>
+			</g>
+			<g id="shape108-224" v:mID="108" v:groupContext="shape" transform="translate(77.3178,-28.2017)">
+				<title>シート.108</title>
+			</g>
+			<g id="shape109-225" v:mID="109" v:groupContext="shape">
+				<title>Operations</title>
+				<rect x="0" y="1175.77" width="154.636" height="18.8" class="st2"/>
+			</g>
+			<g id="shape110-227" v:mID="110" v:groupContext="shape" transform="translate(0,-18.8)">
+				<title>Attributes</title>
+				<rect x="0" y="1175.77" width="154.636" height="18.8" class="st2"/>
+			</g>
+			<g id="shape111-229" v:mID="111" v:groupContext="shape" transform="translate(0,-37.6)">
+				<title>Name</title>
+				<desc>tls.EncryptedStream (*)</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="77.3178" cy="1185.17" width="154.64" height="18.8035"/>
+				<path d="M0 1194.57 L154.64 1194.57 L154.64 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="3.16" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>tls.EncryptedStream   (*)</text>			</g>
+			<g id="shape112-232" v:mID="112" v:groupContext="shape" transform="translate(118.636,-49.353)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group113-234" transform="translate(900.889,-341.341)" v:mID="113" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({DCEECB8E-F9C2-46E8-9A30-650C4E3BB542})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(0):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.18581514744842):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.53</title>
+			<g id="shape114-235" v:mID="114" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape113-236" v:mID="113" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1278.43 L-64.09 1278.43 L-64.09 1353.46" class="st6"/>
+			</g>
+		</g>
+		<g id="group115-239" transform="translate(965.657,-341.341)" v:mID="115" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({93169AD5-3232-4D00-8FC8-7CCD10EC5BDE})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(0):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.17732902570253):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.55</title>
+			<g id="shape116-240" v:mID="116" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape115-241" v:mID="115" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1283.16 L61.27 1283.16 L61.27 1346.1" class="st6"/>
+			</g>
+		</g>
+		<g id="shape117-244" v:mID="117" v:groupContext="shape" transform="translate(805.606,-471.245)">
+			<title>シート.117</title>
+			<desc>data</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1179.92" width="62.37" height="29.3045"/>
+			<ellipse cx="31.1811" cy="1179.92" rx="31.1811" ry="14.6522" class="st7"/>
+			<text x="18.58" y="1184.12" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>data</text>		</g>
+		<g id="shape118-247" v:mID="118" v:groupContext="shape" transform="translate(805.284,-439.677)">
+			<title>シート.118</title>
+			<desc>drain</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1179.92" width="62.37" height="29.3045"/>
+			<ellipse cx="31.1811" cy="1179.92" rx="31.1811" ry="14.6522" class="st7"/>
+			<text x="16.96" y="1184.12" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>drain</text>		</g>
+		<g id="shape119-250" v:mID="119" v:groupContext="shape" transform="translate(657.883,-119.237)">
+			<title>シート.119</title>
+			<desc>secureConnect</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="1179.92" width="113.39" height="29.3045"/>
+			<ellipse cx="56.6929" cy="1179.92" rx="56.6929" ry="14.6522" class="st7"/>
+			<text x="12.37" y="1184.12" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>secureConnect</text>		</g>
+		<g id="shape120-253" v:mID="120" v:groupContext="shape" transform="translate(706.072,-84.2628)">
+			<title>シート.120</title>
+			<desc>timeout</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1179.92" width="62.37" height="29.3045"/>
+			<ellipse cx="31.1811" cy="1179.92" rx="31.1811" ry="14.6522" class="st7"/>
+			<text x="9.09" y="1184.12" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>timeout</text>		</g>
+		<g id="shape121-256" v:mID="121" v:groupContext="shape" transform="translate(806.702,-406.527)">
+			<title>シート.121</title>
+			<desc>end</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1179.92" width="62.37" height="29.3045"/>
+			<ellipse cx="31.1811" cy="1179.92" rx="31.1811" ry="14.6522" class="st7"/>
+			<text x="20.71" y="1184.12" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>end</text>		</g>
+		<g id="shape122-259" v:mID="122" v:groupContext="shape" transform="translate(704.535,-149.939)">
+			<title>シート.122</title>
+			<desc>close</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1179.92" width="62.37" height="29.3045"/>
+			<ellipse cx="31.1811" cy="1179.92" rx="31.1811" ry="14.6522" class="st7"/>
+			<text x="15.92" y="1184.12" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>close</text>		</g>
+		<g id="shape123-262" v:mID="123" v:groupContext="shape" transform="translate(706.072,-51.205)">
+			<title>シート.123</title>
+			<desc>error</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1179.92" width="62.37" height="29.3045"/>
+			<ellipse cx="31.1811" cy="1179.92" rx="31.1811" ry="14.6522" class="st7"/>
+			<text x="16.83" y="1184.12" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>error</text>		</g>
+		<g id="group124-265" transform="translate(273.88,-791.217)" v:mID="124" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({C4110945-3145-4280-825D-744120ACF8CD})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.2317004594418):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.2317004594418):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.65</title>
+			<g id="shape125-266" v:mID="125" v:groupContext="shape" transform="translate(43.0599,-45.0033)">
+				<title>シート.125</title>
+			</g>
+			<g id="shape126-267" v:mID="126" v:groupContext="shape" transform="translate(43.0599,-45.0033)">
+				<title>シート.126</title>
+			</g>
+			<g id="shape127-268" v:mID="127" v:groupContext="shape" transform="translate(43.0599,-45.0033)">
+				<title>シート.127</title>
+			</g>
+			<g id="shape128-269" v:mID="128" v:groupContext="shape" transform="translate(43.0599,-45.0033)">
+				<title>シート.128</title>
+			</g>
+			<g id="shape129-270" v:mID="129" v:groupContext="shape">
+				<title>Operations</title>
+				<rect x="0" y="1175.77" width="86.1199" height="18.8" class="st2"/>
+			</g>
+			<g id="shape130-272" v:mID="130" v:groupContext="shape" transform="translate(0,-18.8)">
+				<title>Attributes</title>
+				<desc>+ssl (*) +encrypted +cleartext</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="43.0599" cy="1168.37" width="86.12" height="52.4032"/>
+				<rect x="0" y="1142.17" width="86.1199" height="52.4032" class="st2"/>
+				<text x="1" y="1155.77" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+ssl (*)<v:newlineChar/><tspan x="1"
+							dy="1.2em" class="st4">+</tspan>encrypted<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>cleartext</text>			</g>
+			<g id="shape131-277" v:mID="131" v:groupContext="shape" transform="translate(0,-71.2032)">
+				<title>Name</title>
+				<desc>tls.SecurePair</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="43.0599" cy="1185.17" width="86.12" height="18.8035"/>
+				<path d="M0 1194.57 L86.12 1194.57 L86.12 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="1.88" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>tls.SecurePair</text>			</g>
+			<g id="shape132-280" v:mID="132" v:groupContext="shape" transform="translate(50.1199,-78.7558)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="shape135-282" v:mID="135" v:groupContext="shape" transform="translate(206.809,-821.089)">
+			<title>シート.135</title>
+			<desc>secure</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1179.92" width="62.37" height="29.3045"/>
+			<ellipse cx="31.1811" cy="1179.92" rx="31.1811" ry="14.6522" class="st7"/>
+			<text x="11.52" y="1184.12" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>secure</text>		</g>
+		<g id="group151-285" transform="translate(517.774,-612.964)" v:mID="151" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({3A3D5698-5AC3-46C1-8B2C-0F1E09F3B98C})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.2370257768247):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.2370257768247):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.92</title>
+			<g id="shape152-286" v:mID="152" v:groupContext="shape" transform="translate(44.5329,-28.2035)">
+				<title>シート.152</title>
+			</g>
+			<g id="shape153-287" v:mID="153" v:groupContext="shape" transform="translate(44.5329,-28.2035)">
+				<title>シート.153</title>
+			</g>
+			<g id="shape154-288" v:mID="154" v:groupContext="shape" transform="translate(44.5329,-28.2035)">
+				<title>シート.154</title>
+			</g>
+			<g id="shape155-289" v:mID="155" v:groupContext="shape" transform="translate(44.5329,-28.2035)">
+				<title>シート.155</title>
+			</g>
+			<g id="shape156-290" v:mID="156" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+addContext()</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="44.5329" cy="1185.17" width="89.07" height="18.8035"/>
+				<rect x="0" y="1175.77" width="89.0659" height="18.8035" class="st2"/>
+				<text x="1" y="1189.37" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+addContext()</text>			</g>
+			<g id="shape157-293" v:mID="157" v:groupContext="shape" transform="translate(0,-18.8035)">
+				<title>Attributes</title>
+				<rect x="0" y="1175.77" width="89.0659" height="18.8" class="st2"/>
+			</g>
+			<g id="shape158-295" v:mID="158" v:groupContext="shape" transform="translate(0,-37.6035)">
+				<title>Name</title>
+				<desc>tls.Server</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="44.5329" cy="1185.17" width="89.07" height="18.8035"/>
+				<path d="M0 1194.57 L89.07 1194.57 L89.07 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="16.26" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>tls.Server</text>			</g>
+			<g id="shape159-298" v:mID="159" v:groupContext="shape" transform="translate(53.0659,-49.356)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="shape162-300" v:mID="162" v:groupContext="shape" transform="translate(398.751,-646.979)">
+			<title>シート.162</title>
+			<desc>secureConnection</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.5114" cy="1179.92" width="119.03" height="29.3045"/>
+			<ellipse cx="59.5114" cy="1179.92" rx="59.5114" ry="14.6522" class="st7"/>
+			<text x="6.66" y="1184.12" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>secureConnection</text>		</g>
+		<g id="shape163-303" v:mID="163" v:groupContext="shape" transform="translate(432.734,-612.964)">
+			<title>シート.163</title>
+			<desc>clientError</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="41.811" cy="1179.92" width="83.63" height="29.3045"/>
+			<ellipse cx="41.811" cy="1179.92" rx="41.811" ry="14.6522" class="st7"/>
+			<text x="11.08" y="1184.12" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>clientError</text>		</g>
+		<g id="group62-306" transform="translate(516.187,-771.93)" v:mID="62" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({E39E3924-5501-4AEC-A828-DD921675C648})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(2.6645352591004E-015):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.12389949218196):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.62</title>
+			<g id="shape63-307" v:mID="63" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape62-308" v:mID="62" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1255.23 L46.12 1255.23 L46.12 1297.13" class="st6"/>
+			</g>
+		</g>
+		<g id="group79-311" transform="translate(1436.07,-680.315)" v:mID="79" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({800E01B1-D52A-4CA5-A5BE-1BF24E2C6799})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(2.0725207719418):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(2.0725207719418):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.12</title>
+			<g id="shape80-312" v:mID="80" v:groupContext="shape" transform="translate(75.6633,-103.803)">
+				<title>シート.80</title>
+			</g>
+			<g id="shape81-313" v:mID="81" v:groupContext="shape" transform="translate(75.6633,-103.803)">
+				<title>シート.81</title>
+			</g>
+			<g id="shape82-314" v:mID="82" v:groupContext="shape" transform="translate(75.6633,-103.803)">
+				<title>シート.82</title>
+			</g>
+			<g id="shape83-315" v:mID="83" v:groupContext="shape" transform="translate(75.6633,-103.803)">
+				<title>シート.83</title>
+			</g>
+			<g id="shape93-316" v:mID="93" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+bind() +close() +send() +address() +setBroadcast() +setTTL()...</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="75.6633" cy="1109.57" width="151.33" height="170.002"/>
+				<rect x="0" y="1024.57" width="151.327" height="170.002" class="st2"/>
+				<text x="1" y="1038.17" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+bind()<v:newlineChar/><tspan x="1"
+							dy="1.2em" class="st4">+</tspan>close()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>send()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>address()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>setBroadcast()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>setTTL()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>setMulticastTTL()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>setMulticastLoopback()<v:newlineChar/><tspan x="1" dy="1.2em"
+							class="st4">+</tspan>addMembership()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>dropMembership()</text>			</g>
+			<g id="shape94-328" v:mID="94" v:groupContext="shape" transform="translate(0,-170.002)">
+				<title>Attributes</title>
+				<rect x="0" y="1175.77" width="151.327" height="18.8" class="st2"/>
+			</g>
+			<g id="shape133-330" v:mID="133" v:groupContext="shape" transform="translate(0,-188.802)">
+				<title>Name</title>
+				<desc>dgram.Socket</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="75.6633" cy="1185.17" width="151.33" height="18.8035"/>
+				<path d="M0 1194.57 L151.33 1194.57 L151.33 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="35.85" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>dgram.Socket</text>			</g>
+			<g id="shape134-333" v:mID="134" v:groupContext="shape" transform="translate(115.327,-181.655)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="shape138-335" v:mID="138" v:groupContext="shape" transform="translate(1362.05,-788.031)">
+			<title>シート.138</title>
+			<desc>message</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="1180.4" width="70.87" height="28.3465"/>
+			<ellipse cx="35.4331" cy="1180.4" rx="35.4331" ry="14.1732" class="st7"/>
+			<text x="10.28" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>message</text>		</g>
+		<g id="shape139-338" v:mID="139" v:groupContext="shape" transform="translate(1360.63,-756.85)">
+			<title>シート.139</title>
+			<desc>close</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="1180.4" width="70.87" height="28.3465"/>
+			<ellipse cx="35.4331" cy="1180.4" rx="35.4331" ry="14.1732" class="st7"/>
+			<text x="20.18" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>close</text>		</g>
+		<g id="shape140-341" v:mID="140" v:groupContext="shape" transform="translate(1362.05,-725.669)">
+			<title>シート.140</title>
+			<desc>error</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="1180.4" width="70.87" height="28.3465"/>
+			<ellipse cx="35.4331" cy="1180.4" rx="35.4331" ry="14.1732" class="st7"/>
+			<text x="21.08" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>error</text>		</g>
+		<g id="shape141-344" v:mID="141" v:groupContext="shape" transform="translate(1362.05,-819.213)">
+			<title>シート.141</title>
+			<desc>listening</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="1180.4" width="70.87" height="28.3465"/>
+			<ellipse cx="35.4331" cy="1180.4" rx="35.4331" ry="14.1732" class="st7"/>
+			<text x="11.59" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>listening</text>		</g>
+		<g id="shape70-347" v:mID="70" v:groupContext="shape" transform="translate(762.809,-1194.57)">
+			<title>ウォーターマークのタイトル.70</title>
+			<desc>静的構造</desc>
+			<v:userDefs>
+				<v:ud v:nameU="msvNoAutoSize" v:prompt="" v:val="VT0(1):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="81.8377" cy="1168.97" width="163.68" height="51.2036"/>
+			<text x="9.56" y="1179.77" class="st1" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>静的構造</text>		</g>
+		<g id="shape164-349" v:mID="164" v:groupContext="shape" transform="translate(190.118,-469.984)">
+			<title>シート.164</title>
+			<desc>error</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="1180.4" width="70.87" height="28.3465"/>
+			<ellipse cx="35.4331" cy="1180.4" rx="35.4331" ry="14.1732" class="st7"/>
+			<text x="21.08" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>error</text>		</g>
+		<g id="shape168-352" v:mID="168" v:groupContext="shape" transform="translate(180.981,-500.528)">
+			<title>シート.168</title>
+			<desc>clientError</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="43.937" cy="1180.4" width="87.88" height="28.3465"/>
+			<ellipse cx="43.937" cy="1180.4" rx="43.937" ry="14.1732" class="st7"/>
+			<text x="13.2" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>clientError</text>		</g>
+		<g id="group169-355" transform="translate(269.662,-538.583)" v:mID="169" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({D7E31A41-EC2F-47CA-8CE6-C9969FE2354D})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.6654048356625):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.6654048356625):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.41</title>
+			<g id="shape170-356" v:mID="170" v:groupContext="shape" transform="translate(59.157,-28.2035)">
+				<title>シート.170</title>
+			</g>
+			<g id="shape171-357" v:mID="171" v:groupContext="shape" transform="translate(59.157,-28.2035)">
+				<title>シート.171</title>
+			</g>
+			<g id="shape172-358" v:mID="172" v:groupContext="shape" transform="translate(59.157,-28.2035)">
+				<title>シート.172</title>
+			</g>
+			<g id="shape173-359" v:mID="173" v:groupContext="shape" transform="translate(59.157,-28.2035)">
+				<title>シート.173</title>
+			</g>
+			<g id="shape174-360" v:mID="174" v:groupContext="shape">
+				<title>Operations</title>
+				<rect x="0" y="1175.77" width="118.314" height="18.8" class="st2"/>
+			</g>
+			<g id="shape175-362" v:mID="175" v:groupContext="shape" transform="translate(0,-18.8)">
+				<title>Attributes</title>
+				<desc>+maxHeadersCount</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="59.157" cy="1185.17" width="118.32" height="18.8035"/>
+				<rect x="0" y="1175.77" width="118.314" height="18.8035" class="st2"/>
+				<text x="1" y="1189.37" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+maxHeadersCount</text>			</g>
+			<g id="shape176-365" v:mID="176" v:groupContext="shape" transform="translate(0,-37.6035)">
+				<title>Name</title>
+				<desc>http.Server</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="59.157" cy="1185.17" width="118.32" height="18.8035"/>
+				<path d="M0 1194.57 L118.31 1194.57 L118.31 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="26.13" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>http.Server</text>			</g>
+			<g id="shape177-368" v:mID="177" v:groupContext="shape" transform="translate(82.3141,-49.356)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="shape180-370" v:mID="180" v:groupContext="shape" transform="translate(189.551,-624.756)">
+			<title>シート.180</title>
+			<desc>request</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.8504" cy="1180.4" width="73.71" height="28.3465"/>
+			<ellipse cx="36.8504" cy="1180.4" rx="36.8504" ry="14.1732" class="st7"/>
+			<text x="14.76" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>request</text>		</g>
+		<g id="shape181-373" v:mID="181" v:groupContext="shape" transform="translate(190.118,-593.575)">
+			<title>シート.181</title>
+			<desc>connect</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.8504" cy="1180.4" width="73.71" height="28.3465"/>
+			<ellipse cx="36.8504" cy="1180.4" rx="36.8504" ry="14.1732" class="st7"/>
+			<text x="13.33" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>connect</text>		</g>
+		<g id="shape182-376" v:mID="182" v:groupContext="shape" transform="translate(189.005,-563.031)">
+			<title>シート.182</title>
+			<desc>upgrade</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="36.8504" cy="1180.4" width="73.71" height="28.3465"/>
+			<ellipse cx="36.8504" cy="1180.4" rx="36.8504" ry="14.1732" class="st7"/>
+			<text x="13.91" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>upgrade</text>		</g>
+		<g id="shape183-379" v:mID="183" v:groupContext="shape" transform="translate(172.913,-531.85)">
+			<title>シート.183</title>
+			<desc>checkContinue</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="47.7306" cy="1180.4" width="95.47" height="28.3465"/>
+			<ellipse cx="47.7306" cy="1180.4" rx="47.7306" ry="14.1732" class="st7"/>
+			<text x="4.36" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>checkContinue</text>		</g>
+		<g id="group71-382" transform="translate(516.187,-771.93)" v:mID="71" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({F5340D12-40F7-4850-B468-3DC94B289F4A})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(-8.8817841970013E-016):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.3035906872532):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.71</title>
+			<g id="shape72-383" v:mID="72" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape71-384" v:mID="71" v:groupContext="groupContent">
+				<path d="M0 1194.57 L-0 1255.23 L-187.37 1255.23 L-187.37 1371.51" class="st6"/>
+			</g>
+		</g>
+		<g id="group184-387" transform="translate(522.382,-548.283)" v:mID="184" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({CF346EE2-3A79-4D26-8E3D-ECD163637080})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.095744648895):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.095744648895):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.14</title>
+			<g id="shape185-388" v:mID="185" v:groupContext="shape" transform="translate(39.4468,-22.0159)">
+				<title>シート.185</title>
+			</g>
+			<g id="shape186-389" v:mID="186" v:groupContext="shape" transform="translate(39.4468,-22.0159)">
+				<title>シート.186</title>
+			</g>
+			<g id="shape187-390" v:mID="187" v:groupContext="shape" transform="translate(39.4468,-22.0159)">
+				<title>シート.187</title>
+			</g>
+			<g id="shape188-391" v:mID="188" v:groupContext="shape" transform="translate(39.4468,-22.0159)">
+				<title>シート.188</title>
+			</g>
+			<g id="shape189-392" v:mID="189" v:groupContext="shape">
+				<title>Operations</title>
+				<rect x="0" y="1181.96" width="78.8936" height="12.6142" class="st2"/>
+			</g>
+			<g id="shape190-394" v:mID="190" v:groupContext="shape" transform="translate(0,-12.6142)">
+				<title>Attributes</title>
+				<rect x="0" y="1181.96" width="78.8936" height="12.6142" class="st2"/>
+			</g>
+			<g id="shape191-396" v:mID="191" v:groupContext="shape" transform="translate(0,-25.2283)">
+				<title>Name</title>
+				<desc>https.Server</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="39.4468" cy="1185.17" width="78.9" height="18.8035"/>
+				<path d="M0 1194.57 L78.89 1194.57 L78.89 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="3.16" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>https.Server</text>			</g>
+			<g id="shape192-399" v:mID="192" v:groupContext="shape" transform="translate(42.8936,-38.5278)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group193-401" transform="translate(569.154,-612.964)" v:mID="193" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({BC242D7D-FA9C-47B3-9B52-245D04091CB0})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(0.59370614198587):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(-0.00039795831288192):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.017207095824061):24"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.193</title>
+			<g id="shape194-402" v:mID="194" v:groupContext="shape" transform="translate(-17.9958,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape193-403" v:mID="193" v:groupContext="groupContent">
+				<path d="M-6.85 1194.57 L-7.33 1215.22" class="st6"/>
+			</g>
+		</g>
+		<g id="group195-406" transform="translate(105.027,-791.217)" v:mID="195" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({B21C7087-A2C0-4ED3-9AFC-FE53A13CDCC9})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.1671443376157):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.1671443376157):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.71</title>
+			<g id="shape196-407" v:mID="196" v:groupContext="shape" transform="translate(40.7319,-45.0033)">
+				<title>シート.196</title>
+			</g>
+			<g id="shape197-408" v:mID="197" v:groupContext="shape" transform="translate(40.7319,-45.0033)">
+				<title>シート.197</title>
+			</g>
+			<g id="shape198-409" v:mID="198" v:groupContext="shape" transform="translate(40.7319,-45.0033)">
+				<title>シート.198</title>
+			</g>
+			<g id="shape199-410" v:mID="199" v:groupContext="shape" transform="translate(40.7319,-45.0033)">
+				<title>シート.199</title>
+			</g>
+			<g id="shape200-411" v:mID="200" v:groupContext="shape">
+				<title>Operations</title>
+				<rect x="0" y="1175.77" width="81.4637" height="18.8" class="st2"/>
+			</g>
+			<g id="shape201-413" v:mID="201" v:groupContext="shape" transform="translate(0,-18.8)">
+				<title>Attributes</title>
+				<desc>+maxSockets +requests +sockets</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="40.7319" cy="1168.37" width="81.47" height="52.4032"/>
+				<rect x="0" y="1142.17" width="81.4637" height="52.4032" class="st2"/>
+				<text x="1" y="1155.77" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+maxSockets<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>requests<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>sockets</text>			</g>
+			<g id="shape202-418" v:mID="202" v:groupContext="shape" transform="translate(0,-71.2032)">
+				<title>Name</title>
+				<desc>http.Agent</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="40.7319" cy="1185.17" width="81.47" height="18.8035"/>
+				<path d="M0 1194.57 L81.46 1194.57 L81.46 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="10.03" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>http.Agent</text>			</g>
+			<g id="shape203-421" v:mID="203" v:groupContext="shape" transform="translate(45.4637,-78.7558)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group204-423" transform="translate(104.286,-694.774)" v:mID="204" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({3BE42E8F-7C14-4EF9-9C50-A18B43943AC6})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.0311847123715):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.0311847123715):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.37</title>
+			<g id="shape205-424" v:mID="205" v:groupContext="shape" transform="translate(41.5766,-28.2035)">
+				<title>シート.205</title>
+			</g>
+			<g id="shape206-425" v:mID="206" v:groupContext="shape" transform="translate(41.5766,-28.2035)">
+				<title>シート.206</title>
+			</g>
+			<g id="shape207-426" v:mID="207" v:groupContext="shape" transform="translate(41.5766,-28.2035)">
+				<title>シート.207</title>
+			</g>
+			<g id="shape208-427" v:mID="208" v:groupContext="shape" transform="translate(41.5766,-28.2035)">
+				<title>シート.208</title>
+			</g>
+			<g id="shape209-428" v:mID="209" v:groupContext="shape">
+				<title>Operations</title>
+				<rect x="0" y="1175.77" width="83.1533" height="18.8" class="st2"/>
+			</g>
+			<g id="shape210-430" v:mID="210" v:groupContext="shape" transform="translate(0,-18.8)">
+				<title>Attributes</title>
+				<desc>+defaltPort</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="41.5766" cy="1185.17" width="83.16" height="18.8035"/>
+				<rect x="0" y="1175.77" width="83.1533" height="18.8035" class="st2"/>
+				<text x="1" y="1189.37" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+defaltPort</text>			</g>
+			<g id="shape211-433" v:mID="211" v:groupContext="shape" transform="translate(0,-37.6035)">
+				<title>Name</title>
+				<desc>https.Agent</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="41.5766" cy="1185.17" width="83.16" height="18.8035"/>
+				<path d="M0 1194.57 L83.15 1194.57 L83.15 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="7.62" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>https.Agent</text>			</g>
+			<g id="shape212-436" v:mID="212" v:groupContext="shape" transform="translate(47.1533,-49.356)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group213-438" transform="translate(138.724,-791.217)" v:mID="213" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({3866B710-9F4C-44B2-A2C2-57267D56A74D})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(0):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.033449856924287):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.46</title>
+			<g id="shape214-439" v:mID="214" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape213-440" v:mID="213" v:groupContext="groupContent">
+				<path d="M7.03 1194.57 L7.03 1205.2 L7.14 1205.2 L7.14 1234.61" class="st6"/>
+			</g>
+		</g>
+		<g id="group217-443" transform="translate(1102.21,-373.963)" v:mID="217" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({F2A271C7-642B-474B-B964-5FA3973C904B})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(2.102897206268):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(2.102897206268):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.52</title>
+			<g id="shape218-444" v:mID="218" v:groupContext="shape" transform="translate(75.8268,-95.4046)">
+				<title>シート.218</title>
+			</g>
+			<g id="shape219-445" v:mID="219" v:groupContext="shape" transform="translate(75.8268,-95.4046)">
+				<title>シート.219</title>
+			</g>
+			<g id="shape220-446" v:mID="220" v:groupContext="shape" transform="translate(75.8268,-95.4046)">
+				<title>シート.220</title>
+			</g>
+			<g id="shape221-447" v:mID="221" v:groupContext="shape" transform="translate(75.8268,-95.4046)">
+				<title>シート.221</title>
+			</g>
+			<g id="shape222-448" v:mID="222" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+setEncoding() +pause() +resume()</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="75.8268" cy="1168.37" width="151.66" height="52.4032"/>
+				<rect x="0" y="1142.17" width="151.654" height="52.4032" class="st2"/>
+				<text x="1" y="1155.77" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+setEncoding()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>pause()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>resume()</text>			</g>
+			<g id="shape223-453" v:mID="223" v:groupContext="shape" transform="translate(0,-52.4032)">
+				<title>Attributes</title>
+				<desc>+method +url -headers +trailers +httpVersion +connection +sta...</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="75.8268" cy="1134.77" width="151.66" height="119.603"/>
+				<rect x="0" y="1074.97" width="151.654" height="119.603" class="st2"/>
+				<text x="1" y="1088.57" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+method<v:newlineChar/><tspan x="1"
+							dy="1.2em" class="st4">+</tspan>url<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">-</tspan>headers<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>trailers<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>httpVersion<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>connection<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>statusCode</text>			</g>
+			<g id="shape224-462" v:mID="224" v:groupContext="shape" transform="translate(0,-172.006)">
+				<title>Name</title>
+				<desc>http.IncomingMessage(*)</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="75.8268" cy="1185.17" width="151.66" height="18.8035"/>
+				<path d="M0 1194.57 L151.65 1194.57 L151.65 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="3.28" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>http.IncomingMessage(*)</text>			</g>
+			<g id="shape225-465" v:mID="225" v:groupContext="shape" transform="translate(115.654,-166.958)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group245-467" transform="translate(1077.11,-754.016)" v:mID="245" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({CC3B8CAF-6DA4-417C-975D-63F3FA18ECDA})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(0):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.24180998738717):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.245</title>
+			<g id="shape246-468" v:mID="246" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape245-469" v:mID="245" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1307.96 L100.93 1307.96 L100.93 1383.82" class="st6"/>
+			</g>
+		</g>
+		<g id="shape226-472" v:mID="226" v:groupContext="shape" transform="translate(1039.85,-499.576)">
+			<title>シート.226</title>
+			<desc>data</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="18.58" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>data</text>		</g>
+		<g id="shape227-475" v:mID="227" v:groupContext="shape" transform="translate(1037.02,-468.395)">
+			<title>シート.227</title>
+			<desc>end</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="20.71" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>end</text>		</g>
+		<g id="shape228-478" v:mID="228" v:groupContext="shape" transform="translate(1037.02,-437.214)">
+			<title>シート.228</title>
+			<desc>close</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="15.92" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>close</text>		</g>
+		<g id="group229-481" transform="translate(1039.67,-260.034)" v:mID="229" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(51):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({832491F2-03B4-4B6D-B5B3-E592E418940B})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(19):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(1024):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.6638904008481):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.6638904008481):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(クラスのインスタンスを表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>オブジェクト</title>
+			<g id="shape230-482" v:mID="230" v:groupContext="shape">
+				<title>Attributes</title>
+				<rect x="0" y="1175.77" width="119.8" height="18.8" class="st2"/>
+			</g>
+			<g id="shape231-484" v:mID="231" v:groupContext="shape" transform="translate(0,-18.8)">
+				<title>Name</title>
+				<desc>http.ServerRequest</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HeightRatio" v:val="VT0(0.6496062992126):24"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="59.9001" cy="1185.17" width="119.81" height="18.8035"/>
+				<rect x="0" y="1175.77" width="119.8" height="18.8035" class="st2"/>
+				<text x="3.13" y="1189.37" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan
+							class="st9">http</tspan><tspan class="st9">.</tspan><tspan class="st9">ServerRequest</tspan></text>			</g>
+		</g>
+		<g id="group232-490" transform="translate(1140.13,-373.963)" v:mID="232" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(34):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({F7C4F655-F593-4CF3-8B02-1F0A7BD625C8})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:val="VT0(-1.5707963267952):32"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(37952):26"/>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:val="VT0(4096):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DX1" v:val="VT0(1.7763568394003E-015):1"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.048700082936938):1"/>
+				<v:ud v:nameU="DX3" v:val="VT0(-1.7763568394003E-014):1"/>
+				<v:ud v:nameU="DY3" v:val="VT0(-0.048700082936922):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(2 つのオブジェクト間のリンクを表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>リンク</title>
+			<g id="shape233-491" v:mID="233" v:groupContext="shape" transform="translate(5.09117,33.3976)">
+				<title>end1_name</title>
+			</g>
+			<g id="shape234-492" v:mID="234" v:groupContext="shape" transform="translate(-13.0912,33.3976)">
+				<title>end1_mp</title>
+			</g>
+			<g id="shape235-493" v:mID="235" v:groupContext="shape" transform="translate(-35.4633,67.7281)">
+				<title>end2_name</title>
+			</g>
+			<g id="shape236-494" v:mID="236" v:groupContext="shape" transform="translate(-53.6457,67.7281)">
+				<title>end2_mp</title>
+			</g>
+			<g id="shape232-495" v:mID="232" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1234.24 L-40.55 1234.24 L-40.55 1270.9" class="st10"/>
+			</g>
+		</g>
+		<g id="group237-498" transform="translate(1184.24,-260.034)" v:mID="237" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(51):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({B5C9267E-4BB6-4761-B950-A7687C3A90A3})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(19):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(1024):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.7185779008481):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.7185779008481):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(クラスのインスタンスを表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>オブジェクト.46</title>
+			<g id="shape238-499" v:mID="238" v:groupContext="shape">
+				<title>Attributes</title>
+				<rect x="0" y="1175.77" width="133.871" height="18.8" class="st2"/>
+			</g>
+			<g id="shape239-501" v:mID="239" v:groupContext="shape" transform="translate(0,-18.8)">
+				<title>Name</title>
+				<desc>http.ClientResponse</desc>
+				<v:userDefs>
+					<v:ud v:nameU="HeightRatio" v:val="VT0(0.6496062992126):24"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="66.9355" cy="1185.17" width="133.88" height="18.8035"/>
+				<rect x="0" y="1175.77" width="133.871" height="18.8035" class="st2"/>
+				<text x="8.2" y="1189.37" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st9">http</tspan><tspan
+							class="st9">.</tspan><tspan class="st9">ClientResponse</tspan></text>			</g>
+		</g>
+		<g id="group240-507" transform="translate(1215.95,-373.963)" v:mID="240" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(34):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({76505B24-BDBF-4D01-BE38-E9A1C5F4DF41})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(37952):26"/>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Navigability" v:val="VT0(4096):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DX1" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.046477826234624):1"/>
+				<v:ud v:nameU="DX3" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DY3" v:val="VT0(-0.046477826234638):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(2 つのオブジェクト間のリンクを表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>リンク.49</title>
+			<g id="shape241-508" v:mID="241" v:groupContext="shape" transform="translate(5.09117,33.2376)">
+				<title>end1_name</title>
+			</g>
+			<g id="shape242-509" v:mID="242" v:groupContext="shape" transform="translate(-13.0912,33.2376)">
+				<title>end1_mp</title>
+			</g>
+			<g id="shape243-510" v:mID="243" v:groupContext="shape" transform="translate(40.3123,67.8881)">
+				<title>end2_name</title>
+			</g>
+			<g id="shape244-511" v:mID="244" v:groupContext="shape" transform="translate(22.1299,67.8881)">
+				<title>end2_mp</title>
+			</g>
+			<g id="shape240-512" v:mID="240" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1234.05 L35.22 1234.05 L35.22 1270.9" class="st10"/>
+			</g>
+		</g>
+		<g id="group247-515" transform="translate(1390.64,-425.197)" v:mID="247" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({D3627800-F733-412A-A6B2-6690A5F68B6F})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(2.1704974565122):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(2.1704974565122):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.62</title>
+			<g id="shape248-516" v:mID="248" v:groupContext="shape" transform="translate(80.0787,-70.2031)">
+				<title>シート.248</title>
+			</g>
+			<g id="shape249-517" v:mID="249" v:groupContext="shape" transform="translate(80.0787,-70.2031)">
+				<title>シート.249</title>
+			</g>
+			<g id="shape250-518" v:mID="250" v:groupContext="shape" transform="translate(80.0787,-70.2031)">
+				<title>シート.250</title>
+			</g>
+			<g id="shape251-519" v:mID="251" v:groupContext="shape" transform="translate(80.0787,-70.2031)">
+				<title>シート.251</title>
+			</g>
+			<g id="shape252-520" v:mID="252" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+setHeader() +getHeader() +removeHeader() +addTrailers() +wri...</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="80.0787" cy="1143.17" width="160.16" height="102.803"/>
+				<rect x="0" y="1091.77" width="160.157" height="102.803" class="st2"/>
+				<text x="1" y="1105.37" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+setHeader()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>getHeader()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>removeHeader()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>addTrailers()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>write()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>end()</text>			</g>
+			<g id="shape253-528" v:mID="253" v:groupContext="shape" transform="translate(0,-102.803)">
+				<title>Attributes</title>
+				<rect x="0" y="1175.77" width="160.157" height="18.8" class="st2"/>
+			</g>
+			<g id="shape254-530" v:mID="254" v:groupContext="shape" transform="translate(0,-121.603)">
+				<title>Name</title>
+				<desc>http.OutgoingMessage (*)</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="80.0787" cy="1185.17" width="160.16" height="18.8035"/>
+				<path d="M0 1194.57 L160.16 1194.57 L160.16 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="5.1" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>http.OutgoingMessage (*)</text>			</g>
+			<g id="shape255-533" v:mID="255" v:groupContext="shape" transform="translate(124.157,-122.855)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group284-535" transform="translate(1077.11,-754.016)" v:mID="284" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({4330E168-D97C-40EB-BFE5-2F1DA8CEEFF4})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(0):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.48501566246726):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.284</title>
+			<g id="shape285-536" v:mID="285" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape284-537" v:mID="284" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1307.96 L393.61 1307.96 L393.61 1382.98" class="st6"/>
+			</g>
+		</g>
+		<g id="group256-540" transform="translate(1277.25,-145.012)" v:mID="256" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({F866B3C9-2C79-4F76-8805-B4BE2DA9DC83})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.7990794572446):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.7990794572446):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.86</title>
+			<g id="shape257-541" v:mID="257" v:groupContext="shape" transform="translate(65.9055,-42.6056)">
+				<title>シート.257</title>
+			</g>
+			<g id="shape258-542" v:mID="258" v:groupContext="shape" transform="translate(65.9055,-42.6056)">
+				<title>シート.258</title>
+			</g>
+			<g id="shape259-543" v:mID="259" v:groupContext="shape" transform="translate(65.9055,-42.6056)">
+				<title>シート.259</title>
+			</g>
+			<g id="shape260-544" v:mID="260" v:groupContext="shape" transform="translate(65.9055,-42.6056)">
+				<title>シート.260</title>
+			</g>
+			<g id="shape261-545" v:mID="261" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+writeContinue() +writeHead()</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="65.9055" cy="1177.97" width="131.82" height="33.2039"/>
+				<rect x="0" y="1161.37" width="131.811" height="33.2039" class="st2"/>
+				<text x="1" y="1174.07" class="st8" v:langID="1041"><v:paragraph/><v:tabList/>+writeContinue()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>writeHead()</text>			</g>
+			<g id="shape262-549" v:mID="262" v:groupContext="shape" transform="translate(0,-33.2039)">
+				<title>Attributes</title>
+				<desc>+statusCode +sendDate</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="65.9055" cy="1177.97" width="131.82" height="33.2039"/>
+				<rect x="0" y="1161.37" width="131.811" height="33.2039" class="st2"/>
+				<text x="1" y="1174.07" class="st8" v:langID="1041"><v:paragraph/><v:tabList/>+statusCode<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>sendDate</text>			</g>
+			<g id="shape263-553" v:mID="263" v:groupContext="shape" transform="translate(0,-66.4078)">
+				<title>Name</title>
+				<desc>http.ServerRespones</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="65.9055" cy="1185.17" width="131.82" height="18.8035"/>
+				<path d="M0 1194.57 L131.81 1194.57 L131.81 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="4.3" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>http.ServerRespones</text>			</g>
+			<g id="shape264-556" v:mID="264" v:groupContext="shape" transform="translate(95.811,-74.5598)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="group265-558" transform="translate(1495.64,-131.308)" v:mID="265" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({CCAC95A9-2094-48DF-AB7D-28EAECCA85B9})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.7924838456723):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.7924838456723):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.80</title>
+			<g id="shape266-559" v:mID="266" v:groupContext="shape" transform="translate(69.329,-47.9109)">
+				<title>シート.266</title>
+			</g>
+			<g id="shape267-560" v:mID="267" v:groupContext="shape" transform="translate(69.329,-47.9109)">
+				<title>シート.267</title>
+			</g>
+			<g id="shape268-561" v:mID="268" v:groupContext="shape" transform="translate(69.329,-47.9109)">
+				<title>シート.268</title>
+			</g>
+			<g id="shape269-562" v:mID="269" v:groupContext="shape" transform="translate(69.329,-47.9109)">
+				<title>シート.269</title>
+			</g>
+			<g id="shape270-563" v:mID="270" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+abort() +setTimeout() +setNodelay() +setSocketKeepAlive()</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="69.329" cy="1162.37" width="138.66" height="64.4042"/>
+				<rect x="0" y="1130.17" width="138.658" height="64.4042" class="st2"/>
+				<text x="1" y="1142.87" class="st8" v:langID="1041"><v:paragraph/><v:tabList/>+abort()<v:newlineChar/><tspan x="1"
+							dy="1.2em" class="st4">+</tspan>setTimeout()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>setNodelay()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>setSocketKeepAlive()</text>			</g>
+			<g id="shape271-569" v:mID="271" v:groupContext="shape" transform="translate(0,-64.4042)">
+				<title>Attributes</title>
+				<rect x="0" y="1181.96" width="138.658" height="12.6142" class="st2"/>
+			</g>
+			<g id="shape272-571" v:mID="272" v:groupContext="shape" transform="translate(0,-77.0184)">
+				<title>Name</title>
+				<desc>http.ClientRequest</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="69.329" cy="1185.17" width="138.66" height="18.8035"/>
+				<path d="M0 1194.57 L138.66 1194.57 L138.66 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="14.42" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>http.ClientRequest</text>			</g>
+			<g id="shape273-574" v:mID="273" v:groupContext="shape" transform="translate(102.658,-83.8441)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="shape274-576" v:mID="274" v:groupContext="shape" transform="translate(1431.74,-169.208)">
+			<title>シート.274</title>
+			<desc>connect</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="7.67" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>connect</text>		</g>
+		<g id="shape275-579" v:mID="275" v:groupContext="shape" transform="translate(1431.74,-104.011)">
+			<title>シート.275</title>
+			<desc>upgrade</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="8.24" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>upgrade</text>		</g>
+		<g id="shape276-582" v:mID="276" v:groupContext="shape" transform="translate(1210.64,-175.929)">
+			<title>シート.276</title>
+			<desc>close</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="15.92" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>close</text>		</g>
+		<g id="shape277-585" v:mID="277" v:groupContext="shape" transform="translate(1431.74,-200.389)">
+			<title>シート.277</title>
+			<desc>response</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="4.77" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>response</text>		</g>
+		<g id="shape278-588" v:mID="278" v:groupContext="shape" transform="translate(1433.2,-230.477)">
+			<title>シート.278</title>
+			<desc>socket</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="11.71" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>socket</text>		</g>
+		<g id="shape279-591" v:mID="279" v:groupContext="shape" transform="translate(1431.74,-135.192)">
+			<title>シート.279</title>
+			<desc>continue</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="31.1811" cy="1180.4" width="62.37" height="28.3465"/>
+			<ellipse cx="31.1811" cy="1180.4" rx="31.1811" ry="14.1732" class="st7"/>
+			<text x="6.19" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>continue</text>		</g>
+		<g id="group280-594" transform="translate(1510.76,-425.197)" v:mID="280" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({22D30A67-CCBD-4BF2-953D-6BAA3E0173A0})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(0):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.21023283969894):24"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.73</title>
+			<g id="shape281-595" v:mID="281" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape280-596" v:mID="280" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1292.08 L54.21 1292.08 L54.21 1392.64" class="st6"/>
+			</g>
+		</g>
+		<g id="group282-599" transform="translate(1430.68,-425.197)" v:mID="282" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(22):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({E50761BB-E134-4328-B4CD-F7962161E048})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="BeginAngle" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="DX1" v:val="VT0(3.5527136788005E-015):1"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="DY1" v:val="VT0(-0.23541131738927):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(より一般的な要素とより特殊な要素との間のクラス関係を示します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>汎化.75</title>
+			<g id="shape283-600" v:mID="283" v:groupContext="shape" transform="translate(7.2,32)">
+				<title>Discriminator</title>
+			</g>
+			<g id="shape282-601" v:mID="282" v:groupContext="groupContent">
+				<path d="M0 1194.57 L0 1292.08 L-87.52 1292.08 L-87.52 1389.55" class="st6"/>
+			</g>
+		</g>
+		<g id="group286-604" transform="translate(761.012,-742.677)" v:mID="286" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+				<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+				<v:ud v:nameU="UMLObjectGUID" v:val="VT4({41E688D0-68AF-443F-A921-0349794C1902})"/>
+				<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+				<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+				<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+				<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+				<v:ud v:nameU="DefaultWidth" v:val="VT0(1.304614582977):1"/>
+				<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.304614582977):1"/>
+				<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+			</v:userDefs>
+			<title>クラス.286</title>
+			<g id="shape287-605" v:mID="287" v:groupContext="shape" transform="translate(46.9661,-70.2048)">
+				<title>シート.287</title>
+			</g>
+			<g id="shape288-606" v:mID="288" v:groupContext="shape" transform="translate(46.9661,-70.2048)">
+				<title>シート.288</title>
+			</g>
+			<g id="shape289-607" v:mID="289" v:groupContext="shape" transform="translate(46.9661,-70.2048)">
+				<title>シート.289</title>
+			</g>
+			<g id="shape290-608" v:mID="290" v:groupContext="shape" transform="translate(46.9661,-70.2048)">
+				<title>シート.290</title>
+			</g>
+			<g id="shape291-609" v:mID="291" v:groupContext="shape">
+				<title>Operations</title>
+				<desc>+add() +remove() +bind() +intercept() +run() +dispose()</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="46.9661" cy="1143.17" width="93.94" height="102.803"/>
+				<rect x="0" y="1091.77" width="93.9322" height="102.803" class="st2"/>
+				<text x="1" y="1105.37" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+add()<v:newlineChar/><tspan x="1"
+							dy="1.2em" class="st4">+</tspan>remove()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>bind()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>intercept()<v:newlineChar/><tspan x="1" dy="1.2em" class="st4">+</tspan>run()<v:newlineChar/><tspan
+							x="1" dy="1.2em" class="st4">+</tspan>dispose()</text>			</g>
+			<g id="shape292-617" v:mID="292" v:groupContext="shape" transform="translate(0,-102.803)">
+				<title>Attributes</title>
+				<desc>+members</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="46.9661" cy="1185.17" width="93.94" height="18.8035"/>
+				<rect x="0" y="1175.77" width="93.9322" height="18.8035" class="st2"/>
+				<text x="1" y="1189.37" class="st3" v:langID="1041"><v:paragraph/><v:tabList/>+members</text>			</g>
+			<g id="shape293-620" v:mID="293" v:groupContext="shape" transform="translate(0,-121.606)">
+				<title>Name</title>
+				<desc>domain.Domain</desc>
+				<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+				<v:textRect cx="46.9661" cy="1185.17" width="93.94" height="18.8035"/>
+				<path d="M0 1194.57 L93.93 1194.57 L93.93 1175.77 L0 1175.77 L0 1194.57 Z" class="st2"/>
+				<text x="3.16" y="1189.37" class="st5" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>domain.Domain</text>			</g>
+			<g id="shape294-623" v:mID="294" v:groupContext="shape" transform="translate(57.9322,-122.858)">
+				<title>Parameters</title>
+			</g>
+		</g>
+		<g id="shape295-625" v:mID="295" v:groupContext="shape" transform="translate(680.315,-796.914)">
+			<title>シート.295</title>
+			<desc>dispose</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.685" cy="1180.4" width="79.38" height="28.3465"/>
+			<ellipse cx="39.685" cy="1180.4" rx="39.685" ry="14.1732" class="st7"/>
+			<text x="17.76" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>dispose</text>		</g>
+		<g id="shape51-628" v:mID="51" v:groupContext="shape" transform="translate(476.22,-1123.86)">
+			<title>シート.51</title>
+			<desc>Node.js Class Diagram (node-v0.8.12)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="425.197" cy="1161.23" width="850.4" height="66.6929"/>
+			<rect x="0" y="1127.88" width="850.394" height="66.6929" class="st11"/>
+			<text x="48.23" y="1175.63" class="st12" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Node.js Class Diagram (node-v0.8.12)</text>		</g>
+		<g id="shape146-631" v:mID="146" v:groupContext="shape" transform="translate(1301.1,-65.0394)">
+			<title>シート.146</title>
+			<desc>(*) NOT listed in the manual</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="165.056" cy="1184.57" width="330.12" height="20"/>
+			<rect x="0" y="1174.57" width="330.111" height="20" class="st11"/>
+			<text x="82.72" y="1188.77" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>(*) NOT listed in the manual</text>		</g>
+		<g id="shape147-634" v:mID="147" v:groupContext="shape" transform="translate(89.8199,-42.5197)">
+			<title>シート.147</title>
+			<rect v:rectContext="foreign" x="0" y="1148.33" width="132.171" height="46.2435" class="st11"/>
+			<image x="0" y="1148.33" width="132.171" height="46.2435" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="1148.33" width="132.171" height="46.2435" class="st11"/>
+		</g>
+		<g id="shape148-638" v:mID="148" v:groupContext="shape" transform="translate(232.441,-46.0236)">
+			<title>シート.148</title>
+			<desc>https://github.com/shigeki/node-class-diagram By Shigeki Ohtsu</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="194.882" cy="1172.56" width="389.77" height="44.0157"/>
+			<rect x="0" y="1150.56" width="389.764" height="44.0157" class="st11"/>
+			<text x="4" y="1167.16" class="st13" v:langID="1033"><v:paragraph/><v:tabList/>https://github.com/shigeki/node-class-diagram<v:newlineChar/><tspan
+						x="4" dy="1.2em" class="st4" v:langID="1041">By Shigeki Ohtsu </tspan> </text>		</g>
+		<g id="shape299-642" v:mID="299" v:groupContext="shape" transform="translate(121.89,34.0157)">
+			<title>シート.299</title>
+			<rect x="0" y="1188.9" width="5.66929" height="5.66929" class="st7"/>
+		</g>
+		<g id="shape300-644" v:mID="300" v:groupContext="shape" transform="translate(93.5433,25.5118)">
+			<title>シート.300</title>
+			<rect x="0" y="1188.9" width="5.66929" height="5.66929" class="st7"/>
+		</g>
+		<g id="shape145-646" v:mID="145" v:groupContext="shape" transform="translate(527.244,-263.622)">
+			<title>シート.145</title>
+			<desc>agentRemove(**)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="62.3622" cy="1180.4" width="124.73" height="28.3465"/>
+			<ellipse cx="62.3622" cy="1180.4" rx="62.3622" ry="14.1732" class="st7"/>
+			<text x="11.67" y="1184.6" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>agentRemove(**)</text>		</g>
+		<g id="shape149-649" v:mID="149" v:groupContext="shape" transform="translate(1305.23,-42.3622)">
+			<title>シート.149</title>
+			<desc>(**) used only in http.Request</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="165.056" cy="1184.57" width="330.12" height="20"/>
+			<rect x="0" y="1174.57" width="330.111" height="20" class="st11"/>
+			<text x="77.36" y="1188.77" class="st3" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>(**) used only in http.Request</text>		</g>
+		<g id="group161-652" transform="translate(99.2126,-155.906)" v:mID="161" v:groupContext="group">
+			<title>シート.161</title>
+			<g id="group150-653" transform="translate(8.50394,-5.66929)" v:mID="150" v:groupContext="group">
+				<title>シート.150</title>
+				<g id="group73-654" transform="translate(157.156,-38.5215)" v:mID="73" v:groupContext="group">
+					<v:userDefs>
+						<v:ud v:nameU="UMLSuppressOption" v:val="VT0(0):26"/>
+						<v:ud v:nameU="UMLTemplate" v:val="VT0(0):26"/>
+						<v:ud v:nameU="UMLVersion" v:val="VT0(2):26"/>
+						<v:ud v:nameU="UMLShapeType" v:val="VT0(20):26"/>
+						<v:ud v:nameU="UMLObjectGUID" v:val="VT4({B283869E-161D-4A54-9537-D55CC715382E})"/>
+						<v:ud v:nameU="UMLError" v:val="VT0(0):26"/>
+						<v:ud v:nameU="UMLAutoLockTextEdit" v:val="VT0(1):26"/>
+						<v:ud v:nameU="UMLPresOption1" v:val="VT0(10291):26"/>
+						<v:ud v:nameU="UMLPresOption2" v:val="VT0(0):26"/>
+						<v:ud v:nameU="DefaultWidth" v:val="VT0(1.7869410905454):1"/>
+						<v:ud v:nameU="EnsureWidthOK" v:val="VT0(1.7869410905454):1"/>
+						<v:ud v:nameU="visDescription" v:val="VT4(構造、振る舞い、および関係が似ている一連のオブジェクトの記述子を表します。)"/>
+						<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+					</v:userDefs>
+					<title>クラス.73</title>
+					<g id="shape74-655" v:mID="74" v:groupContext="shape" transform="translate(80.162,-46.2052)">
+						<title>シート.74</title>
+					</g>
+					<g id="shape75-656" v:mID="75" v:groupContext="shape" transform="translate(80.162,-46.2052)">
+						<title>シート.75</title>
+					</g>
+					<g id="shape76-657" v:mID="76" v:groupContext="shape" transform="translate(80.162,-46.2052)">
+						<title>シート.76</title>
+					</g>
+					<g id="shape77-658" v:mID="77" v:groupContext="shape" transform="translate(80.162,-46.2052)">
+						<title>シート.77</title>
+					</g>
+					<g id="shape78-659" v:mID="78" v:groupContext="shape">
+						<title>Operations</title>
+						<desc>+method()</desc>
+						<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+						<v:textRect cx="80.162" cy="1179.17" width="160.33" height="30.8035"/>
+						<rect x="0" y="1163.77" width="160.324" height="30.8035" class="st2"/>
+						<text x="1" y="1186.37" class="st14" v:langID="1041"><v:paragraph/><v:tabList/>+method()</text>					</g>
+					<g id="shape136-662" v:mID="136" v:groupContext="shape" transform="translate(0,-30.8035)">
+						<title>Attributes</title>
+						<desc>+property</desc>
+						<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+						<v:textRect cx="80.162" cy="1179.17" width="160.33" height="30.8035"/>
+						<rect x="0" y="1163.77" width="160.324" height="30.8035" class="st2"/>
+						<text x="1" y="1186.37" class="st14" v:langID="1041"><v:paragraph/><v:tabList/>+property</text>					</g>
+					<g id="shape137-665" v:mID="137" v:groupContext="shape" transform="translate(0,-61.607)">
+						<title>Name</title>
+						<desc>Class Name</desc>
+						<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+						<v:textRect cx="80.162" cy="1179.17" width="160.33" height="30.8035"/>
+						<path d="M0 1194.57 L160.32 1194.57 L160.32 1163.77 L0 1163.77 L0 1194.57 Z" class="st2"/>
+						<text x="20.54" y="1186.37" class="st15" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Class Name</text>					</g>
+					<g id="shape142-668" v:mID="142" v:groupContext="shape" transform="translate(124.324,-80.8592)">
+						<title>Parameters</title>
+					</g>
+				</g>
+				<g id="shape144-670" v:mID="144" v:groupContext="shape" transform="translate(76.5354,0)">
+					<title>シート.144</title>
+					<desc>Legend</desc>
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="76" cy="1180.4" width="152" height="28.3465"/>
+					<rect x="0" y="1166.23" width="152" height="28.3465" class="st11"/>
+					<text x="40.05" y="1187.6" class="st14" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Legend</text>				</g>
+				<g id="shape143-673" v:mID="143" v:groupContext="shape" transform="translate(0,-55.8359)">
+					<title>シート.143</title>
+					<desc>event name</desc>
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="77.9528" cy="1167.21" width="155.91" height="54.7153"/>
+					<ellipse cx="77.9528" cy="1167.21" rx="77.9528" ry="27.3576" class="st7"/>
+					<text x="19.83" y="1174.41" class="st14" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>event name</text>				</g>
+			</g>
+			<g id="shape160-676" v:mID="160" v:groupContext="shape">
+				<title>シート.160</title>
+				<path d="M0 1194.57 L340.16 1194.57 L340.16 1038.67 L0 1038.67 L0 1194.57 Z" class="st16"/>
+			</g>
+		</g>
+	</g>
+</svg>
